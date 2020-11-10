@@ -1,0 +1,8 @@
+In Java, the JVM maintains a string pool to store all of its strings inside the memory. 
+The string pool helps in reusing the strings.
+While creating strings using string literals, the value of the string is directly provided. 
+Hence, the compiler first checks the string pool to see if the string already exists.
+If the string already exists, the new string is not created. Instead, the new reference points to the existing string.
+If the string doesn't exist, the new string is created.
+However, while creating strings using the new keyword, the value of the string is not directly provided. 
+Hence the new string is created all the time.
