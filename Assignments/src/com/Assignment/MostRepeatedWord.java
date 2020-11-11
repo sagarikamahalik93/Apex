@@ -29,7 +29,7 @@ public class MostRepeatedWord {
 	}
 
 	public static void main(String[] args) {
-		String str="the sky is blue or not blue";
+		String str="I like programming very much and I like Java too.";
 		System.out.println("Most repeated word : "+findMostRepeatedWords(str));
 	}
 }
